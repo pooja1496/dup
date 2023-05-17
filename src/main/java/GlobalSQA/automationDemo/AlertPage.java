@@ -15,7 +15,7 @@ public class AlertPage {
 		Alert alt= driver.switchTo().alert();
 		//alt.accept();
 		alt.dismiss();
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		
 		return this;
 	}
